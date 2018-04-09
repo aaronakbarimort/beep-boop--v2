@@ -1,9 +1,11 @@
-var userInput = [0, 1];
+var userInput = [0, 1, 2, 3];
 
-// console.log(userInput[1]);
-if (userInput[1] === 1) {
+if (userInput[3] % 3 === 0) {
+  console.log("I'm Sorry...")
+}
+else if (userInput[1] === 1) {
   console.log("Boop!");
 }
-  else if (userInput[0] === 0) {
-    console.log("Beep!");
-  }
+else if (userInput[0] === 0) {
+  console.log("Beep!");
+}
