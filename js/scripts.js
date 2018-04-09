@@ -1,11 +1,24 @@
-var userInput = [0, 1, 2, 3];
+$(document).ready(function() {
+  $("#inputForm").submit(function(event) {
+    event.preventDefualt();
 
-if (userInput[3] % 3 === 0) {
-  console.log("I'm Sorry...")
-}
-else if (userInput[1] === 1) {
-  console.log("Boop!");
-}
-else if (userInput[0] === 0) {
-  console.log("Beep!");
-}
+    var userInput = $("#userInput").val();
+
+    function evaluateInputValue(inputValue) {
+      if (userInput % 3 === 0) {
+        return "I'm Sorry...";
+      }
+      else if (userInput === 1) {
+        return "Boop!";
+      }
+      else if (userInput === 0) {
+        return "Beep!";
+      }
+      else {
+        return userInput;
+      }
+    }
+
+    $("#results").text(inputValue);
+  });
+});

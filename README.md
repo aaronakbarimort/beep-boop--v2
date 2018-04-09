@@ -1,14 +1,12 @@
-# Portfolio
+# Beep Boop
 
-#### Beep Boop for Epicodus, 03.30.2018
+#### Beep Boop v2 for Epicodus, 03.30.2018
 
 ## By Aaron Akbari-Mort
 
-[Link to project](https://aaronakbarimort.github.io/beep-boop/)
-
 ## Description
 
-Website featuring a Beep Boop converter for Epicodus week 3 Independent Project.
+Website featuring a Beep Boop converter for Epicodus week 3 Independent Project. Version 2.
 
 ### Specs
 | Spec | Input | Output |
