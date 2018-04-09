@@ -1,5 +1,9 @@
-var userInput = 0;
+var userInput = [0, 1];
 
-if (userInput === 0) {
-  console.log("Beep!");
+// console.log(userInput[1]);
+if (userInput[1] === 1) {
+  console.log("Boop!");
 }
+  else if (userInput[0] === 0) {
+    console.log("Beep!");
+  }
